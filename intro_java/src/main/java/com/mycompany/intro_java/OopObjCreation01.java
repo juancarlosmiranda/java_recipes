@@ -51,7 +51,7 @@ public class OopObjCreation01 {
             System.out.println(trivial.getIncr());
             //System.out.println(trivial.otherP);
             
-        }    
+        }  
 }
 
 

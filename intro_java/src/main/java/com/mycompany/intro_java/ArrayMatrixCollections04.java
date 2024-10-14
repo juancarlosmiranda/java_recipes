@@ -17,6 +17,7 @@ public class ArrayMatrixCollections04 {
         myList.add("Orange");
         myList.add("Tomatoe");
         myList.add("Potato");
+        
 
         //Iterator it = myList.iterator();
         // --------------------------------------
