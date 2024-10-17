@@ -22,7 +22,7 @@ public class UserInputClass {
         
         // built-in types
         int intNumber = 1234;
-        double doubleNumber = 1.1;
+        double doubleNumber = 1;
         boolean booleanValue = true;
         char charData = 'a';
         String stringData = "String";
@@ -47,7 +47,7 @@ public class UserInputClass {
         System.out.println("Display results on the Screen");
         System.out.println("------------------------------");
         System.out.println("Display intergers " + intNumber);
-        System.out.println("Display intergers " + doubleNumber);        
+        System.out.println("Display doubles " + doubleNumber);        
         System.out.println("A NEW STRING: " + stringData);
 
         System.out.println("------------------------------");        

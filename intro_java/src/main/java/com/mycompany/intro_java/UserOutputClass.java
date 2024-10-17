@@ -34,11 +34,11 @@ public class UserOutputClass {
         System.out.println("------------------------------");        
         System.out.println("Formatted printing");
         System.out.println("------------------------------");
-        System.out.printf("Displays integer 10 places = | %14d |", intNumber);
+        System.out.printf("Displays integer 10 places = |%3d|", intNumber);
         System.out.println("");
-        System.out.printf("Displays double 10 places  = | %14.2f |", doubleNumber);
+        System.out.printf("Displays double  10 places = |%.2f|", doubleNumber);
         System.out.println("");
-        System.out.printf("Displays double 03 places  = | %3.3f |", doubleNumber);
+        System.out.printf("Displays double  03 places = |%3.3f|", doubleNumber);
         System.out.println("");
         System.out.printf("String data original  = | %s |", stringData);
         System.out.println("");
