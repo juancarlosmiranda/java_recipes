@@ -2,7 +2,7 @@
 package com.mycompany.intro_java;
 
 
-public class ArrayMatrixCollections02 {
+public class ArrayMatrix02 {
         public static void main(String[] args) {
         System.out.println("--------------------------------");
         System.out.println("Using Arrays of Integers");
@@ -18,7 +18,9 @@ public class ArrayMatrixCollections02 {
         System.out.println("Using myMatrix01 ->");
         for (int i=0; i < myMatrix01.length; i++){
             for (int j=0; j < myMatrix01.length; j++){
-                System.out.print("["+ i +"] ["+ j + "] = "+myMatrix01[i][j]);
+                System.out.print("["+ i +"] ["+ j + "] = ");
+                System.out.printf("%2d",myMatrix01[i][j]);
+                System.out.print("|");
             }
             System.out.println("|");
         }
@@ -31,7 +33,6 @@ public class ArrayMatrixCollections02 {
                 System.out.println("["+ i +"] ["+ j + "] -> value = "+myMatrix02[i][j]);
             } 
         }
-        // --------------------------------------        
-        
+        // --------------------------------------                
     }
 }

@@ -2,7 +2,7 @@
 package com.mycompany.intro_java;
 
 
-public class ArrayMatrixCollections01 {
+public class ArrayMatrix01 {
         public static void main(String[] args) {
         System.out.println("--------------------------------");
         System.out.println("Using Arrays of Integers");
@@ -32,11 +32,6 @@ public class ArrayMatrixCollections01 {
         for (int i=0; i < myStringArray01.length; i++){
             System.out.println(i+") - value = "+myStringArray01[i]);
         }
-        
-        
-        // linear search
-        // binary search
-        // bubble sort
         
         // --------------------------------------
         
